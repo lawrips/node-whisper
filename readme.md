@@ -98,7 +98,11 @@ Included in this package is also a console app. To install the console app, run:
 npm install -g whisper-ws
 ```
 
-This will install the whisper-ws console app which can then be used to create a one-time URL directly from the command line. For example:
+This will install the whisper console app which can then be used to create a one-time URL directly from the command line. For example:
+
+```
+whisper --file readme.md 
+```
 
 Supported options for the CLI include:
 
@@ -112,9 +116,9 @@ Supported options for the CLI include:
     -u, --url [url]            optional: overrides destination server (developers only)
     -e, --encoding [encoding]  optional: specifies encoding (default is utf-8
 ```
-### Example
+### Full Example
 ```
-whisper-ws --file readme.md 
+whisper --file readme.md 
 ```
 would return:
 ```
