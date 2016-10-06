@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./lib/index.js"
   },
-  "description": "Node whisper library / SDK",
+  "description": "Node SDK for whisper.ws",
   "author": "lripsher <lawrence@ripsher.com>",
   "dependencies": {
     "async": "^1.5.2",
