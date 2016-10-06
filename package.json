@@ -3,7 +3,7 @@
     "node": "6.7.0"
   },
   "name": "whisper-ws",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "scripts": {
     "start": "node ./lib/index.js"
   },
@@ -21,7 +21,7 @@
     "test": "test"
   },
   "bin": {
-    "whisper": "./bin/whisper"
+    "whisper": "./bin/whisper-ws"
   },
   "devDependencies": {
     "mocha": "^2.4.5"
