@@ -1,0 +1,41 @@
+{
+  "engines": {
+    "node": "6.7.0"
+  },
+  "name": "whisper-ws",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "description": "Node whisper library / SDK",
+  "author": "lripsher <lawrence@ripsher.com>",
+  "dependencies": {
+    "async": "^1.5.2",
+    "commander": "^2.9.0",
+    "mocha": "^2.4.5",
+    "request": "^2.69.0",
+    "should": "^8.2.2"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "whisper": "./bin/whisper"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawrips/node-whisper.git"
+  },
+  "keywords": [
+    "whisper"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lawrips/node-whisper/issues"
+  },
+  "homepage": "https://github.com/lawrips/node-whisper#readme"
+}
